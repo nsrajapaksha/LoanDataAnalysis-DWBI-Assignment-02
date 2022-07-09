@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject_for_DummyBank</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9vP5slkRXuh5lFm4Sq+S3WQFVyg=5/17/2022 1:32:54 AM5/16/2022 6:15:23 PM</TimeStamp>
+        <ID>
+          <String>DS_Dummy_Bank_Loan_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>2eboIUidNPbLb/WsLowpHEElihQ=5/16/2022 6:52:31 PM5/16/2022 6:30:35 PM</TimeStamp>
+        <ID>
+          <String>DSV_Dummy_Bank_Loan_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iXr/4/LpEIcISgFj2BFhaTVHEuI=5/17/2022 2:20:12 AM5/16/2022 6:52:30 PM</TimeStamp>
+        <ID>
+          <String>Dim Bank</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RqFXPff3b9KHcfl7GphZCqxNrhE=5/17/2022 1:10:51 PM5/16/2022 6:52:31 PM</TimeStamp>
+        <ID>
+          <String>Dim Borrower</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AMsgYZLY/oTDJgu+MfocD9azsNI=5/17/2022 1:10:52 PM5/16/2022 6:52:31 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fAd5QBTxesIxa6r7GuPF1Yivfwo=5/16/2022 7:12:37 PM5/16/2022 6:52:31 PM</TimeStamp>
+        <ID>
+          <String>Dim Loan Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7n4D8foY88Yj39vTMH+0ydtarpc=5/16/2022 7:12:37 PM5/16/2022 6:52:31 PM</TimeStamp>
+        <ID>
+          <String>Dim Disbursement Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>nLHyECuJ5mSW1b3pGDfDtmDgVRk=5/17/2022 1:10:51 PM5/16/2022 6:52:30 PMzsHOsH1UV9JKw/rQY1d3uxxXupY=5/16/2022 6:52:31 PM5/16/2022 6:52:30 PM</TimeStamp>
+        <ID>
+          <String>Cube_Dummy_Bank_Loan_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>fs4Hs989a2DY8deEjrwR2lMckd4=5/17/2022 2:43:13 AM5/17/2022 2:27:44 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>2XVSnKk5ung2uMhGeAyPMDX1DcA=5/17/2022 2:29:04 AM5/16/2022 6:08:12 PM</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject_for_DummyBank</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-17T07:41:19.763333Z</LastDeployed>
+</DeploymentSnapshot>
